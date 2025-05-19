@@ -1,0 +1,1 @@
+#### Trading system based on LLM sentiment on recent news
