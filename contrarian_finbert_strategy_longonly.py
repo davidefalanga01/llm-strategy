@@ -13,8 +13,8 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 # Alpaca API details
-API_KEY = "PKYYPTCAEPUIHQAYU12E"
-API_SECRET = "Q02LOVlCOfMdUnbDPqh6YKJtv14nSjEdK6u7N5Zr"
+API_KEY = os.getenv("ALPACA_API_KEY")
+API_SECRET = os.getenv("ALPACA_API_SECRET")
 BASE_URL = "https://paper-api.alpaca.markets/v2"
 
 ALPACA_CREDS = {"API_KEY": API_KEY, "API_SECRET": API_SECRET, "PAPER": True}
